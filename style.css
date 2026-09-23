@@ -251,8 +251,8 @@ footer {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-10px); /* Sobe 10 pixels na metade do tempo */
+        transform: translateY(-10px); 
     }
     100% {
-        transform: translateY(0); /* Volta para a posição original */
+        transform: translateY(0);
     }
