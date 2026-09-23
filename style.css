@@ -13,7 +13,7 @@ body {
 }
 
 
-/* NAVBAR - FLEXBOX */
+
 
 .navbar {
     display: flex;
@@ -116,8 +116,7 @@ body {
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s, opacity 0.2s;
+    cursor: pointer;    transition: transform 0.2s, opacity 0.2s;
 }
 
 .btn:hover {
@@ -183,8 +182,6 @@ main h2 {
 }
 
 
-/* INFORMAÇÕES DO CARD - FLEXBOX */
-
 .card-info {
     display: flex;
     justify-content: space-between;
@@ -203,7 +200,7 @@ main h2 {
 }
 
 
-/* RODAPÉ */
+
 
 footer {
     text-align: center;
@@ -214,7 +211,6 @@ footer {
 }
 
 
-/* RESPONSIVIDADE */
 
 @media (max-width: 700px) {
 
@@ -250,4 +246,13 @@ footer {
     .movie-card img {
         height: 240px;
     }
-}
+}@keyframes subirEDescer {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Sobe 10 pixels na metade do tempo */
+    }
+    100% {
+        transform: translateY(0); /* Volta para a posição original */
+    }
